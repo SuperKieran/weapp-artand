@@ -3,13 +3,7 @@
 
 ## Demo
 
-<p align="center">
-  <video width="100%" loop autobuffer autoplay>
-    <source src="http://7xobjq.com5.z0.glb.clouddn.com/artand.mp4" type="video/mp4"></source>
-    <source src="http://7xobjq.com5.z0.glb.clouddn.com/artand.webm" type="video/webm"></source>
-    <source src="http://7xobjq.com5.z0.glb.clouddn.com/artand.ogv" type="video/ogg"></source>
-  </video>
-</p>
+[演示视频](http://7xobjq.com5.z0.glb.clouddn.com/artand.mp4)
 
 ## Features
 
