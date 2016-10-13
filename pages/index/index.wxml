@@ -5,7 +5,21 @@
 </view>
 
 <!-- 推荐 -->
-<scroll-view class="hot-item-container {{currentNavbar==0 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight-81}}px;" scroll-y="true" bindscrolltolower="pullUpLoad">
+<scroll-view class="hot-item-container {{currentNavbar==0 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight-81}}px;"
+  scroll-y="true" bindscrolltolower="pullUpLoad">
+  <swiper indicator-dots="true" autoplay="true" interval="4000" duration="600"
+    style="height:{{systemInfo.windowWidth/2}}px">
+    <block wx:for="{{swipers}}">
+      <swiper-item>
+        <image src="{{item.pic}}" class="slide-image" width="750"/>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="line-text">
+    编辑推荐
+  </view>
+
   <block wx:for="{{list}}">
     <view class="hot-item">
       <view class="image-container" data-row-id="{{item.row_id}}" bindtap="onItemClick">

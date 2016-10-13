@@ -4,5 +4,15 @@ Page({
     wx.navigateTo({
       url: targetUrl
     })
+  },
+
+  login () {
+    wx.navigateTo({
+      url: '/pages/login/login'
+    })
+  },
+
+  onPullDownRefresh () {
+    wx.stopPullDownRefresh()
   }
 })

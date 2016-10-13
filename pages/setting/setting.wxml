@@ -2,13 +2,16 @@
   <image src="/images/avatar.jpg" class="avatar">
   </image>
   <view class="section">
+    <view bindtap="login">
+      <button class="login">登 录</button>
+    </view>
     <view class="item" data-pay="wechat" bindtap="onItemClick">
       <image src="/images/pay_wx_order.png" class="icon"></image>
-      <text class="pay-text">请 Kieran 喝杯咖啡吧！</text>
+      <text class="pay-text">支持</text>
     </view>
     <view class="item" data-pay="alipay" bindtap="onItemClick">
       <image src="/images/pay_zhifubao_order.png" class="icon"></image>
-      <text class="pay-text">请 Kieran 喝杯咖啡吧！</text>
+      <text class="pay-text">支持</text>
     </view>
   </view>
 </view>

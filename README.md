@@ -1,14 +1,40 @@
 # 微信小程序 Artand Demo
 
 
-## Demo
-
-[演示视频](http://7xobjq.com5.z0.glb.clouddn.com/artand.mp4)
+## ScreenShots
+![](screenshot/1.jpeg)
+![](screenshot/2.jpeg)
+![](screenshot/3.jpeg)
+![](screenshot/4.jpeg)
+![](screenshot/5.jpeg)
+![](screenshot/6.jpeg)
 
 ## Features
 
 - 顶部 Tab 切换
-- 列表无限加载
+- 下拉刷新
+- 上拉加载更多
+- <del>登录注册</del>
+
+## PS
+下拉刷新需要在全局的 app.json 里配置  
+``` js
+"window":{
+    "enablePullDownRefresh": true
+}
+```
+有两个用于下拉刷新的事件  
+``` js
+// 下拉刷新触发事件
+Page({
+  onPullDownRefresh () {
+ 
+  }
+})
+ 
+// 停止下拉刷新
+wx.stopPullDownRefresh()
+```
 
 ## Links
 

@@ -34,5 +34,9 @@ Page({
           })
         })
     }
+  },
+
+  onPullDownRefresh () {
+    wx.stopPullDownRefresh()
   }
 })

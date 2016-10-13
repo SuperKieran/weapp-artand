@@ -9,5 +9,9 @@ Page({
     } else {
       this.data.img = '/images/alipay-qrcode.jpg'
     }
+  },
+
+  onPullDownRefresh () {
+    wx.stopPullDownRefresh()
   }
 })
