@@ -2,12 +2,12 @@
 
 
 ## ScreenShots
-![](screenshot/1.jpeg)
-![](screenshot/2.jpeg)
-![](screenshot/3.jpeg)
-![](screenshot/4.jpeg)
-![](screenshot/5.jpeg)
-![](screenshot/6.jpeg)
+<img src="screenshot/1.jpeg" width="400px" />
+<img src="screenshot/2.jpeg" width="400px" />
+<img src="screenshot/3.jpeg" width="400px" />
+<img src="screenshot/4.jpeg" width="400px" />
+<img src="screenshot/5.jpeg" width="400px" />
+<img src="screenshot/6.jpeg" width="400px" />
 
 ## Features
 
