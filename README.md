@@ -50,3 +50,8 @@ wx.stopPullDownRefresh()
 ## LICENSE
 
 [MIT](./LICENSE)
+
+## Donation
+
+- 佚名 RMB 5 x 1
+(微信扫二维码付款看不见谁，希望捐赠者留个名，不希望留名的就用佚名了😀)
