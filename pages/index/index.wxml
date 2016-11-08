@@ -5,7 +5,7 @@
 </view>
 
 <!-- 推荐 -->
-<scroll-view class="hot-item-container {{currentNavbar==0 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight-81}}px;"
+<scroll-view class="hot-item-container {{currentNavbar==0 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight}}px;"
   scroll-y="true" bindscrolltolower="pullUpLoad">
   <swiper indicator-dots="true" autoplay="true" interval="4000" duration="600"
     style="height:{{systemInfo.windowWidth/2}}px">

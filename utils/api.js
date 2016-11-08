@@ -17,6 +17,7 @@ module.exports = {
 
   get (url) {
     return new Promise((resolve, reject) => {
+      console.log(url)
       wx.request({
         url: url,
         headers: {
