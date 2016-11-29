@@ -52,7 +52,7 @@
 </scroll-view>
 
 <!-- 最新 -->
-<scroll-view class="latest-item-container {{currentNavbar==1 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight-81}}px;" scroll-y="true" bindscrolltolower="pullUpLoadLatest">
+<scroll-view class="latest-item-container {{currentNavbar==1 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight}}px;" scroll-y="true" bindscrolltolower="pullUpLoadLatest">
   <block wx:for="{{latest_list}}" wx:for-index="idx">
     <view wx:if="{{idx%3===0}}" class="latest-item">
       <image src="{{_api.HOST_WORK+latest_list[idx].pic.pid}}!app.c360.webp" class="latest-image"

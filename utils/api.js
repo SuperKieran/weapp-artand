@@ -1,4 +1,5 @@
 'use strict';
+import Promise from './es6-promise.min'
 
 module.exports = {
   PAGE_WORK: '/pages/work-detail/work-detail',
